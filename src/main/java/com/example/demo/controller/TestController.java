@@ -10,6 +10,7 @@ public class TestController {
 
 	@GetMapping("/say")
 	public String saySomthing() {
-		return "Hi Good Morning";
+		int sum = 10+30;
+		return "Hi Good Morning, "+sum;
 	}
 }
