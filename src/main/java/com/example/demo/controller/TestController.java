@@ -11,6 +11,7 @@ public class TestController {
 	@GetMapping("/say")
 	public String saySomthing() {
 		int sum = 10+30;
-		return "Hi Good Morning, "+sum;
+		String val = " done. ";
+		return "Hi Good Morning, "+sum+" "+val;
 	}
 }
